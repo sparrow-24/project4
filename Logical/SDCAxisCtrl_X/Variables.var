@@ -1,0 +1,12 @@
+VAR
+	direction : BOOL := FALSE;
+	min_task : INT := 7000; (*Минимально заданное значение?*)
+	desired_speed : INT := 0; (*Заданная скорость?*)
+	axis_X : FB_Axis; (*Переменная оси*)
+	coil_powered : BOOL := FALSE; (*Включение обмотки возбуждения*)
+	coil_pwm_value : {REDUND_UNREPLICABLE} INT := 200; (*Время импульса ШИМ*)
+	fb_controller : FB_Controller; (*Переменная регулятора*)
+	pwm_period : {REDUND_UNREPLICABLE} UINT := 200; (*Период ШИМ*)
+	reference : BOOL := FALSE;
+	boost : BOOL := FALSE;
+END_VAR

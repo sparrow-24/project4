@@ -1,0 +1,18 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=SDCAxisCtr 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=8 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                  axis_X                                  FB_Axis    0 "                                                               *"    0   24    1    0    1    1         
+                             reset_error                                     BOOL    3 "                                                           FALSE"    1    1    1    2    0    0         
+                     endswitch_a_reached                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                     endswitch_b_reached                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                          pwm_percentage                                     SINT    0 "                                                             100"    1    2    1   10    0    0         
+                           reset_counter                                     BOOL    3 "                                                           FALSE"    1    1    1    2    0    0         
+                               pwm_value                                      INT    3 "                                                               0"    1    3    1   10    0    0         
+                                 counter                                      INT    1 "                                                             597"    1    3    1   10    0    0         
+                                   boost                                     BOOL    1 "                                                           FALSE"    0    1    1    2    1    0         
+                           desired_speed                                      INT    0 "                                                               0"    0    3    1   10    1    0         
+                               direction                                     BOOL    1 "                                                           FALSE"    0    1    1    2    1    0         
+                               reference                                     BOOL    1 "                                                           FALSE"    0    1    1    2    1    0         
+                           fb_controller                            FB_Controller    0 "                                                               *"    0   24    1    0    1    1         
+                                      in                                     REAL    0 "                                                      18567.9668"    1    8    1   10    0    0         
+                                     out                                     REAL    0 "                                                            24.0"    1    8    1   10    0    0         
